@@ -6,6 +6,16 @@ function checkHash() {
         document.getElementById('homePage').style.display = 'none';
         if(window.location.hash.startsWith('#/p/')) {
 		alert('文章板块正在移植和升级,敬请期待...')
+	}else{
+		switch(window.location.hash) {
+			case "join": {
+				window.location.href = "mailto:flutas@outlook.com";
+				break;
+			},
+			default: {
+				window.location.href = "./";
+			}
+		}
 	}
     }
 }
