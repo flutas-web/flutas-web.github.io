@@ -8,13 +8,12 @@ function checkHash() {
 		alert('文章板块正在移植和升级,敬请期待...')
 	}else{
 		switch(window.location.hash) {
-			case "join": {
+			case "join": 
 				window.location.href = "mailto:flutas@outlook.com";
 				break;
-			},
-			default: {
+			default: 
 				window.location.href = "./";
-			}
+				break;
 		}
 	}
     }
