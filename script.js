@@ -8,13 +8,13 @@ function checkHash() {
 		document.getElementById('homePage').style.display = 'block';
 		let psid = window.location.hash.split("#")[1];
 		try{
-			fetch("./" + psid)
+			fetch("./" + psid).then(res => res.text())
 		} catch {
 			window.location.href = "./404.html";
 		}
 	}else{
 		switch(window.location.hash) {
-			case "join": 
+			case "#join": 
 				let linka = document.createElement('a')
 				linka.src = "mailto:flutas@outlook.com?title=加入Flutas&body=我是%20XXX%20我想加入Flutas";
 				a.click()
