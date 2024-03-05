@@ -5,11 +5,19 @@ function checkHash() {
     } else {
         document.getElementById('homePage').style.display = 'none';
         if(window.location.hash.startsWith('#/p/')) {
-		alert('文章板块正在移植和升级,敬请期待...')
+		document.getElementById('homePage').style.display = 'block';
+		let psid = window.location.hash.split("#")[1];
+		try{
+			fetch("./" + psid)
+		} catch {
+			window.location.href = "./404.html";
+		}
 	}else{
 		switch(window.location.hash) {
 			case "join": 
-				window.location.href = "mailto:flutas@outlook.com";
+				let linka = document.createElement('a')
+				linka.src = "mailto:flutas@outlook.com?title=加入Flutas&body=我是%20XXX%20我想加入Flutas";
+				a.click()
 				break;
 			default: 
 				window.location.href = "./";
