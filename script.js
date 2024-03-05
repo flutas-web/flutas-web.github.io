@@ -16,8 +16,12 @@ function checkHash() {
 		switch(window.location.hash) {
 			case "#join": 
 				let linka = document.createElement('a')
-				linka.src = "mailto:flutas@outlook.com?title=加入Flutas&body=我是%20XXX%20我想加入Flutas";
-				a.click()
+			        le join = document.getElementById('homePage')
+				join.style.display = 'block';
+				linka.href = "mailto:flutas@outlook.com?title=加入Flutas&body=我是%20XXX%20我想加入Flutas";
+				linka.texContent = "发送邮件至Fluta邮箱"
+				join.innerHTML = "";
+				join.appendChild(linka)
 				break;
 			default: 
 				window.location.href = "./";
