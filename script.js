@@ -15,16 +15,10 @@ function checkHash() {
 	}else{
 		switch(window.location.hash) {
 			case "#join": 
-				let linka = document.createElement('a')
-			        le join = document.getElementById('homePage')
-				join.style.display = 'block';
-				linka.href = "mailto:flutas@outlook.com?title=加入Flutas&body=我是%20XXX%20我想加入Flutas";
-				linka.texContent = "发送邮件至Fluta邮箱"
-				join.innerHTML = "";
-				join.appendChild(linka)
+				window.location.href = "mailto:flutas@outlook.com?title=加入Flutas&body=我是%20XXX%20我想加入Flutas";
 				break;
 			default: 
-				window.location.href = "./";
+				window.location.href = "./404.html";
 				break;
 		}
 	}
