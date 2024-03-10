@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+    color: teal;
+    text-align: left;
+}
+
+a:hover {
+    color: #00FFFF;
+}

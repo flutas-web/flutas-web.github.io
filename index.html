@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Flutas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/homepage.css">
+    <link rel="stylesheet" href="./assets/a.css">
+    <link rel="stylesheet" href="./assets/notyf.min.css">
 </head>
 <body>
 <header>
         <nav>
             <a href="./about">了解我们</a>
-            <a href="#join">加入我们</a>
-            <a href="./suport">支持</a>
+            <a href="./registry">加入我们</a>
+            <a href="./support">支持</a>
             <a href="./products">产品</a>
         </nav>
     </header>
 <div id="homePage">
-    
+    <section id="a-sentens">
+        <h2>每日一言</h2>
+        <p id="hitokoto">这个板块出现了一些问题</p>
+    </section>
 
     <section id="了解我们">
         <h2>了解我们</h2>
@@ -34,10 +39,54 @@
 
     <section id="产品">
         <h2>产品</h2>
-        <p>我们目前的产品有<br>LevelX<br>Ofcact</p>
+        <p>我们目前的产品有<br>LevelX<br><a href="./products/OfcAct">Ofcact</a></p>
     </section>
 </div>
+<script src="./assets/onloader.js"></script>
+<script src="./assets/marked.min.js"></script>
+<script src="./assets/notyf.min.js"></script>
+<script type="text/javascript">
+const notyf = new Notyf({
+            position: { x: 'center', y: 'top' },
+            types: [
+                {
+                    type: 'success',
+                    background: '#99c959',
+                    duration: 2000,
+                },
+                {
+                    type: 'error',
+                    background: '#e15b64',
+                    duration: 3000,
+                }
+            ]
+        });
+</script>
+<style>
+  .medusa {
+    position: fixed;
+    right: 1%;
+    bottom: 15%;
+    width: 50px;
+    border: 1px solid #cdcccc;
+    background-color: white;
+    font-size: 20px;
+    z-index: 1040;
+    -webkit-backface-visibility: hidden;
+  }
 
-<script src="script.js"></script>
+  .medusa>div>a>img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .medusa>div {
+    margin: 5px 0 5px 9px;
+  }
+
+  .medusa>div>a {
+    padding: 0 0 7px 0;
+  }
+</style>
 </body>
 </html>
