@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>页面找不到了|Flutas</title>
+  <script defer>
+    window.onload = function () {
+      document.querySelector('.link').addEventListener('click', function () {
+        window.location.href = window.location.host;
+      });
+    };
+  </script>
   <style>
     body {
       background-color: #f6f6f6;
@@ -36,15 +43,21 @@
     .link {
       color: #888;
       text-decoration: none;
+      user-select: none;
+      cursor:pointer;
+    }
+
+    .link:hover {
+      color: #08e2ac
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>404</h1>
-    <p>Oops! 页面找不到了</p>
+    <p>Oops! 页面找不到了<br><br>The page is not found.</p>
     <p class="emoji">😔</p>
-    <p><a href="./" class="link">返回首页</a></p>
+    <p><a class="link">返回首页</a></p>
   </div>
 </body>
 </html>
