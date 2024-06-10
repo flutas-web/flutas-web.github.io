@@ -8,7 +8,7 @@
         "picurl": "https://lhimg.crxsoso.com/o0y9hJ4CbiG6LFlfHSRz70ErdrXrV19X6lLz42pTcKFKKq-VrEuXQRcvvtbt2BKgS-ehjJlZqZSc5tWtsyhGfBoxilE=w128-h128-e365-rj-sc0x00ffffff",
         "homepage": "https://github.com/gildas-lormeau/SingleFile/",
         "url": "https://api.github.com/repos/gildas-lormeau/SingleFile/releases",
-        "proj": "github:gildas-lormeau/SingleFile/",
+        "proj": "github:gildas-lormeau/SingleFile",
         "descr": "Web Extension for saving a faithful copy of a complete web page in a single HTML file"
     },{
         "name": "Mertr11Creator",
