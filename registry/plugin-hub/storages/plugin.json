@@ -1,0 +1,22 @@
+{
+    "name": "Plugin-List",
+    "type": "list",
+    "author": "flutas",
+    "plugins": [{
+        "name": "SingleFile",
+        "author": "gildas-lormeau",
+        "picurl": "https://lhimg.crxsoso.com/o0y9hJ4CbiG6LFlfHSRz70ErdrXrV19X6lLz42pTcKFKKq-VrEuXQRcvvtbt2BKgS-ehjJlZqZSc5tWtsyhGfBoxilE=w128-h128-e365-rj-sc0x00ffffff",
+        "homepage": "https://github.com/gildas-lormeau/SingleFile/",
+        "url": "https://api.github.com/repos/gildas-lormeau/SingleFile/releases",
+        "proj": "github:gildas-lormeau/SingleFile",
+        "descr": "Web Extension for saving a faithful copy of a complete web page in a single HTML file"
+    },{
+        "name": "Mertr11Creator",
+        "author": "Xbodw",
+        "picurl": "data:text/plain;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+CgogPGc+CiAgPHRpdGxlPk1ldGVyMTFDcmVhdG9yPC90aXRsZT4KICA8dGV4dCB0cmFuc2Zvcm09Im1hdHJpeCgyLjY2Nzc5IDAgMCAyLjQ3OTE3IC00MS42OTQ3IC0yMi45MzE2KSIgc3Ryb2tlPSIjMDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtZmFtaWx5PSInT3BlbiBTYW5zJyIgZm9udC1zaXplPSIyNCIgaWQ9InN2Z18xIiB5PSIzNC45NDk1OCIgeD0iMTkuNzUyMjEiIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0iIzdBRDZDQSI+TTwvdGV4dD4KIDwvZz4KPC9zdmc+",
+        "homepage": "https://github.com/Xbodw/Mertr11Creater",
+        "url": "https://api.github.com/Xbodw/Mertr11Creater/releases",
+        "proj": "github:Xbodw/Mertr11Creater",
+        "descr": "A Useful Batch of Windows 11"
+    }]
+}
