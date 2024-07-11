@@ -1,0 +1,26 @@
+/**
+ * Render the element
+ * @param {Element} param1 - The object to render(shadowroot)
+ * @returns {undefined}
+ */
+function renddocs(e, t) {
+    const sd = e.shadowRoot || t;
+    const src = invoker.combine(e.getAttribute('src'));
+    let currentsrc = src.startsWith('file:') ? 'https://flutas-web.github.io/p/passage.json' : invoker.combine(src, './passage.json');
+    fetch(currentsrc).then(r => r.json()).then(e => {
+
+    }).error(a => { throw new Error(a) })
+}
+
+
+
+
+aluk.frame.register(class FlutasDOCS {
+    constructor() {
+        this.tag = 'flutas-docs';
+        this.renderer = renddocs;
+        this.inner = `
+        <p>Flutas DOCS</p>
+        `;
+    }
+})

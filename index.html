@@ -1,90 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flutas - Home</title>
-<link rel="stylesheet" href="./assets/home-new.css">
-<link rel="stylesheet" href="./assets/a.css">
-<script src="./assets/mryy.js"></script>
-<script src="https://v1.hitokoto.cn/?encode=json&select=hitokoto&callback=process" type="text/javascript" charset="utf-8" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flutas - Home</title>
+  <link rel="stylesheet" href="./assets/home-new.css">
+  <link rel="stylesheet" href="./assets/a.css">
 </head>
+
 <body>
 
-<header>
-  <div class="container">
-    <h1>Flutas</h1>
-    <nav>
+  <header>
+    <div class="container">
+      <h1>Flutas</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="./#" target="_self">Home</a></li>
+          <li><a href="./about" target="_self">About</a></li>
+          <li><a href="./products" target="_self">Products</a></li>
+          <li><a href="./support" target="_self">Support</a></li>
+        </ul>
+        <div class="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div>
+    <script src="./assets/preload.js"></script>
+    <div class="mobile-menu">
       <ul class="nav-links">
-<<<<<<< HEAD
         <li><a href="/#">首页</a></li>
         <li><a href="/about">关于</a></li>
         <li><a href="/support">服务</a></li>
-        <li><a href="/?connect=ref">联系</a></li>
-=======
-        <li><a href="./#" target="_self">Home</a></li>
-        <li><a href="./about" target="_self">About</a></li>
-        <li><a href="./products" target="_self">Products</a></li>
-        <li><a href="./support" target="_self">Support</a></li>
->>>>>>> 52684d9faf9fa60a6c69c83bd7b794811ee42b9f
+        <li><a href="#">联系</a></li>
       </ul>
-      <div class="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </nav>
+    </div>
+    <div id="homePage" style="width: 60%; display: block;">
+      <section id="a-sentens">
+        <h2>随言</h2>
+        <p id="hitokoto"></p>
+      </section>
+
+      <section id="article">
+        <h2>文档</h2>
+        <p>若要获取更多信息,请参阅<a href="./p/#all">Flutas文档</a></p>
+      </section>
+
+      <section id="know">
+        <h2>了解我们</h2>
+        <p>Flutas 是一个电脑工作室<br>我们热衷于 系统魔改 编程 修复电脑问题 等...</p>
+      </section>
+
+      <section id="join">
+        <h2>加入我们</h2>
+        <p>加入Flutas,请与Xbodw联系.</p>
+        <p><a href="mailto:xbodwxbodw@outlook.com">xbodwxbodw@outlook.com</a></p>
+      </section>
+
+      <section id="support">
+        <h2>支持</h2>
+        <p>需要帮助?<a href="mailto:flutas@outlook.com">联系我们</a></p>
+      </section>
+
+      <section id="产品">
+        <h2>产品</h2>
+        <p>我们目前的产品有<br>LevelX<br><a href="./products/OfcAct">Ofcact</a></p>
+      </section>
+    </div>
+
   </div>
-</header>
-
-<div class="mobile-menu">
-  <ul class="nav-links">
-<<<<<<< HEAD
-    <li><a href="/#">首页</a></li>
-    <li><a href="/about">关于</a></li>
-    <li><a href="/support">服务</a></li>
-    <li><a href="#">联系</a></li>
-  </ul>
-</div>
-<div id="homePage" style="width: 60%; display: block;">
-  <section id="a-sentens">
-      <h2>每日一言</h2>
-      <p id="hitokoto">吾虽浪迹天涯，却未迷失本心。</p>
-  </section>
-
-  <section id="了解我们">
-      <h2>了解我们</h2>
-      <p>Flutas 是一个电脑工作室<br>我们热衷于 系统魔改 编程 修复电脑问题 等...</p>
-  </section>
-
-  <section id="加入我们">
-      <h2>加入我们</h2>
-      <p>想要加入Flutas? </p>
-  </section>
-
-  <section id="支持">
-      <h2>支持</h2>
-      <p>需要帮助？<a href="mailto:flutas@outlook.com">联系我们</a></p>
-  </section>
-
-  <section id="产品">
-      <h2>产品</h2>
-      <p>我们目前的产品有<br>LevelX<br><a href="./products/OfcAct">Ofcact</a></p>
-  </section>
-</div>
-
-<script src="assets/init.home.js"></script>
-=======
-     <li><a href="./#" target="_self">Home</a></li>
-        <li><a href="./about" target="_self">About</a></li>
-        <li><a href="./products" target="_self">Products</a></li>
-        <li><a href="./support" target="_self">Support</a></li>>
-  </ul>
-</div>
-  <div>
-    Why to choose us？
-  </div>
-<script src="script.js"></script>
->>>>>>> 52684d9faf9fa60a6c69c83bd7b794811ee42b9f
+  <script src="./assets/instantpage.js"></script>
+  <script src="assets/init.home.js"></script>
+  <script src="assets/mryy.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://v1.hitokoto.cn/?encode=json&select=%23hitokoto&callback=process" type="text/javascript"
+    charset="utf-8" defer></script>
 </body>
+
 </html>

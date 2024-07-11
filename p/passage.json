@@ -1,5 +1,10 @@
-{
+[{
 	"name": "你似乎踏入了一片荒原",
-	"author": "undefined"
+	"author": "undefined",
 	"id": 1
-}
+},
+{
+	"name": "使用汇编生成MBR并使用C#修改",
+	"author": "Xbodw",
+	"id": 2
+}]

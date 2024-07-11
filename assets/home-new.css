@@ -133,3 +133,29 @@ nav ul li a {
 #homePage>section {
   padding: 10px;
 }
+
+
+.medusa {
+  position: fixed;
+  right: 1%;
+  bottom: 15%;
+  width: 50px;
+  border: 1px solid #cdcccc;
+  background-color: white;
+  font-size: 20px;
+  z-index: 1040;
+  -webkit-backface-visibility: hidden;
+}
+
+.medusa>div>a>img {
+  width: 30px;
+  height: 30px;
+}
+
+.medusa>div {
+  margin: 5px 0 5px 9px;
+}
+
+.medusa>div>a {
+  padding: 0 0 7px 0;
+}
