@@ -1,83 +1,39 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flutas - Home</title>
-  <link rel="stylesheet" href="./assets/home-new.css">
-  <link rel="stylesheet" href="./assets/a.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Navigation</title>
+<link rel="stylesheet" href="./assets/css/homepage.css">
 </head>
-
 <body>
 
-  <header>
-    <div class="container">
-      <h1>Flutas</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="./#" target="_self">Home</a></li>
-          <li><a href="./about" target="_self">About</a></li>
-          <li><a href="./products" target="_self">Products</a></li>
-          <li><a href="./support" target="_self">Support</a></li>
-        </ul>
-        <div class="menu-icon">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+    <nav class="navbar">
+        <div class="navbar-left">
+          <div class="navbar-item">
+            <!--<img src="./assets/img/F.svg" style="display:inline-block" id="imga"><!-->
+            <h2 style="display:inline-block">Flutas</h2>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <ul class="navbar-menu" id="navbarMenu">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">支持</a></li>
+            <li><a href="#">语言</a></li>
+          </ul>
+        </div>
+        <div class="navbar-toggle" id="navbarToggle">
+          <div class="toggle-icon"></div>
+          <div class="toggle-icon"></div>
+          <div class="toggle-icon"></div>
         </div>
       </nav>
-    </div>
-  </header>
-  <div>
-    <script src="./assets/preload.js"></script>
-    <div class="mobile-menu">
-      <ul class="nav-links">
-        <li><a href="/#">首页</a></li>
-        <li><a href="/about">关于</a></li>
-        <li><a href="/support">服务</a></li>
-        <li><a href="#">联系</a></li>
-      </ul>
-    </div>
-    <div id="homePage" style="width: 60%; display: block;">
-      <section id="a-sentens">
-        <h2>随言</h2>
-        <p id="hitokoto"></p>
-      </section>
 
-      <section id="article">
-        <h2>文档</h2>
-        <p>若要获取更多信息,请参阅<a href="./p/#all">Flutas文档</a></p>
-      </section>
+<div class="content">
+  <h1>Welcome to Our Website</h1>
+  <p>This is a responsive homepage with a navigation bar.</p>
+</div>
 
-      <section id="know">
-        <h2>了解我们</h2>
-        <p>Flutas 是一个电脑工作室<br>我们热衷于 系统魔改 编程 修复电脑问题 等...</p>
-      </section>
-
-      <section id="join">
-        <h2>加入我们</h2>
-        <p>加入Flutas,请与Xbodw联系.</p>
-        <p><a href="mailto:xbodwxbodw@outlook.com">xbodwxbodw@outlook.com</a></p>
-      </section>
-
-      <section id="support">
-        <h2>支持</h2>
-        <p>需要帮助?<a href="mailto:flutas@outlook.com">联系我们</a></p>
-      </section>
-
-      <section id="产品">
-        <h2>产品</h2>
-        <p>我们目前的产品有<br>LevelX<br><a href="./products/OfcAct">Ofcact</a></p>
-      </section>
-    </div>
-
-  </div>
-  <script src="./assets/instantpage.js"></script>
-  <script src="assets/init.home.js"></script>
-  <script src="assets/mryy.js" type="text/javascript" charset="utf-8"></script>
-  <script src="https://v1.hitokoto.cn/?encode=json&select=%23hitokoto&callback=process" type="text/javascript"
-    charset="utf-8" defer></script>
+<script src="./assets/js/homepage.js"></script>
 </body>
-
 </html>

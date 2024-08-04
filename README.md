@@ -1,3 +1,5 @@
 # A new website
 
-Flutas&#039; new home page
+Hi! There👏
+
+It is a new website for Flutas.
