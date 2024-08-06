@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dark-mode="auto">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Responsive Navigation</title>
+<meta name="referrer" content="no-referrer">
+<title>Home - Flutas</title>
 <link rel="stylesheet" href="./assets/css/homepage.css">
+<link rel="stylesheet" href="./assets/css/a-theme.css">
 </head>
 <body>
 
@@ -12,14 +14,17 @@
         <div class="navbar-left">
           <div class="navbar-item">
             <!--<img src="./assets/img/F.svg" style="display:inline-block" id="imga"><!-->
-            <h2 style="display:inline-block">Flutas</h2>
+            <h2 special>Flutas</h2>
           </div>
         </div>
         <div class="navbar-right">
           <ul class="navbar-menu" id="navbarMenu">
             <li><a href="#">首页</a></li>
-            <li><a href="#">支持</a></li>
-            <li><a href="#">语言</a></li>
+            <li><a href="/support">支持</a></li>
+            <li><div class="dropdown"><a class="language-select" id="languageDropdown"><span class="arrow down"></span>&ensp;<span class="language">Language</span></a><div class="dropdown-content" id="languageDropdownContent">
+              <a href="#">Chinese</a>
+              <a href="#">English</a>
+            </div></div></li>
           </ul>
         </div>
         <div class="navbar-toggle" id="navbarToggle">
@@ -30,10 +35,23 @@
       </nav>
 
 <div class="content">
-  <h1>Welcome to Our Website</h1>
-  <p>This is a responsive homepage with a navigation bar.</p>
+  <h1>Flutas 首页</h1>
+  <p>欢迎来到我们的首页.</p>
+  <hr>
+  <br><br>
+  <p><h1>什么是Flutas?</h1></p>
+  <p>Flutas是一个团队,团队成员在各方面各有涉猎.我们经常喜欢捣鼓一些奇奇怪怪的东西。</p>
+  <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+  <p>这下面是我们的一些作品,或许你可以从其中看出些什么.</p>
+  <ul>
+    <li><label class="item title">Aluk-js: 包含了Vue和jQuery以及室长稀奇古怪的想法?的Javascript Library.</label>|<a class="theme target" href="./products/aluk" target="blank_">前往</a></li>
+    <li><label class="item title">OfcAct: 一个最简单的Office命令行激活工具(支持2016+版本)</label>|<a class="theme target" href="./products/ofcact" target="blank_">前往</a></li>
+    <li><label class="item title">The Stone of Energy and Life: 目前所有成员正在研发的Unity游戏!</label>|<a class="theme target disabled" href="./products/tsoeal" target="blank_">前往</a></li>
+  </ul>
 </div>
 
+<script src="./assets/js/language.js"></script>
 <script src="./assets/js/homepage.js"></script>
+<script src="./assets/js/languageonload.js" defer></script>
 </body>
 </html>

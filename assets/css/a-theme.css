@@ -1,0 +1,16 @@
+a.theme {
+    text-decoration: none;
+    color: teal;
+}
+
+a.theme.disabled {
+    opacity: 50%;
+}
+
+a.theme:hover {
+    color: #00FFFF;
+}
+
+a.theme.disabled:hover {
+    color: teal;
+}

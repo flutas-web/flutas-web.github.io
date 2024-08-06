@@ -1,143 +1,236 @@
 body {
-    font-family: '拾陆字濑户2.0-1 Regular',Lexend,'Microsoft YaHei UI Light','Open Sans';
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
-  .navbar-left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-item img {
-    width: 40px; /* 根据需要调整图片宽度 */
-    height: auto; /* 保持宽高比 */
-    margin-right: 10px;
-  }
-  
-  .navbar-right {
-    display: flex;
-    align-items: center;
-  }
-  
+  font-family: '拾陆字濑户2.0-1 Regular', Lexend, 'Microsoft YaHei UI Light', 'Open Sans';
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item img {
+  width: 40px;
+  /* 根据需要调整图片宽度 */
+  height: auto;
+  /* 保持宽高比 */
+  margin-right: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+  position: relative;
+  /* 确保子元素绝对定位相对于父元素 */
+  width: 100%;
+}
+
+.navbar-menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar-menu li a:not(.language-select) {
+  display: block;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggle.active .toggle-icon:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navbar-toggle.active .toggle-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggle.active .toggle-icon:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media screen and (max-width: 768px) {
   .navbar-menu {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-menu li {
-    margin-right: 20px;
-    position: relative; /* 确保子元素绝对定位相对于父元素 */
-    width: 100%;
-  }
-  
-  .navbar-menu li a {
-    color: #fff;
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .navbar-toggle {
     display: none;
-    cursor: pointer;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
   }
-  
+
+  .content {
+    width: 80%;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+
+  }
+
+  .navbar-menu.active>li {
+    padding: 10px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background-color: #f7f7f7;
+    /* 黑暗主题背景色 */
+    color: black;
+    /* 黑暗主题文字颜色 */
+  }
+
   .toggle-icon {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0;
-    transition: transform 0.3s ease;
-  }
-  
-  .navbar-toggle.active .toggle-icon:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-  
-  .navbar-toggle.active .toggle-icon:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .navbar-toggle.active .toggle-icon:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-  }
-  
-  @media screen and (max-width: 768px) {
-    .navbar-menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      background-color: #333;
-      width: 100%;
-      padding: 10px 0;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-    }
-  
-    .navbar-menu.active {
-      display: flex;
-      
-    }
-
-    .navbar-menu.active>li {
-        padding: 10px; 
-      }
-  
-    .navbar-toggle {
-      display: block;
-    }
+    background-color: black;
+    /* 黑暗主题文字颜色 */
   }
 
-  @media (prefers-color-scheme: dark) {
-    .navbar {
-      background-color: #f7f7f7; /* 黑暗主题背景色 */
-      color: black; /* 黑暗主题文字颜色 */
-    }
-  
-    .toggle-icon {
-      background-color: black; /* 黑暗主题文字颜色 */
-    }
-  
-    .navbar-menu {
-      background-color: #f7f7f7; /* 黑暗主题背景色 */
-      /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
-      color: #000000;
-    }
-  
-    .navbar-menu li a {
-      color: #000000; /* 黑暗主题文字颜色 */
-    }
-
-    body {
-        color: white;
-        background-color: #333;
-    }
+  .navbar-menu {
+    background-color: #f7f7f7;
+    /* 黑暗主题背景色 */
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
+    color: #000000;
   }
+
+  .navbar-menu li a {
+    color: #000000;
+    /* 黑暗主题文字颜色 */
+  }
+
+  body {
+    color: white;
+    background-color: #333;
+  }
+}
+
 #imga {
-    width: 70px;
+  width: 70px;
 }
 
 .content {
-    width: 80%;
-    position: absolute;
-    left:0px;
-    right: 0px;
-    margin:0 auto;
+  width: 60%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+}
+
+/* 基本结构保持 */
+.navbar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  position: relative;
+  width: 100%;
+}
+
+.navbar-menu li .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-menu li .dropdown .dropbtn {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar-menu li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.navbar-menu li .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.navbar-menu li .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.language-select {
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.arrow.down {
+  display: inline-block;
+  position: relative;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+  transform: rotate(135deg);
+  padding: 0.8px;
+}
+
+.arrow::after {
+  content: " ";
+  position: relative;
+  width: fit-content;
+}
+
+.language {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
 }
