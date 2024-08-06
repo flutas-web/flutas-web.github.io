@@ -1,6 +1,14 @@
         (function fairyDustCursor() {
  
-            var possibleColors = ["#D61C59", "#E7D84B", "#1B8798"]
+            var possibleColors = [
+                "#D61C59", "#E7D84B", "#1B8798", "#4CAF50", "#FF5722", "#03A9F4", "#9C27B0", "#795548",
+                "#009688", "#FFEB3B", "#FF9800", "#FFC107", "#673AB7", "#3F51B5", "#2196F3", "#00BCD4",
+                "#FF4081", "#F44336", "#CDDC39", "#8BC34A", "#FFEB3B", "#FF5722", "#607D8B", "#9E9E9E",
+                "#795548", "#FF5722", "#9C27B0", "#03A9F4", "#4CAF50", "#FFC107", "#FF9800", "#9C27B0",
+                "#9E9E9E", "#607D8B", "#03A9F4", "#FF5722", "#9C27B0", "#673AB7", "#795548", "#FFEB3B",
+                "#FFC107", "#FF9800", "#FF5722", "#607D8B", "#2196F3", "#00BCD4", "#FF4081", "#F44336",
+                "#CDDC39", "#8BC34A", "#FFEB3B", "#FF9800", "#FFC107", "#673AB7", "#3F51B5", "#9C27B0"
+            ];            
             var width = window.innerWidth;
             var height = window.innerHeight;
             var cursor = { x: width / 2, y: width / 2 };
