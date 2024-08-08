@@ -1,0 +1,4 @@
+globalThis.languageTable['en_us'] = {
+    "#homepageBtn": "Home",
+    "#supportBtn": "Support",
+}

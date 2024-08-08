@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
 <title>Home - Flutas</title>
-<link rel="stylesheet" href="./assets/css/homepage.css">
+<link rel="stylesheet" href="./assets/css/universal.css">
 <link rel="stylesheet" href="./assets/css/a-theme.css">
 </head>
 <body>
@@ -19,8 +19,8 @@
         </div>
         <div class="navbar-right">
           <ul class="navbar-menu" id="navbarMenu">
-            <li><a href="#">首页</a></li>
-            <li><a href="/support">支持</a></li>
+            <li><a href="#" id="homepageBtn">首页</a></li>
+            <li><a href="/support" id="supportBtn">支持</a></li>
             <li><div class="dropdown"><a class="language-select" id="languageDropdown"><span class="arrow down"></span>&ensp;<span class="language">Language</span></a><div class="dropdown-content" id="languageDropdownContent">
               <a href="#">Chinese</a>
               <a href="#">English</a>
@@ -35,7 +35,7 @@
       </nav>
       <label class="js-cursor-container"></label>
 
-<div class="content">
+<div class="content" id="contentView">
   <h1>Flutas 首页</h1>
   <p>欢迎来到我们的首页.</p>
   <hr>
@@ -52,6 +52,8 @@
 </div>
 
 <script src="./assets/js/language.js"></script>
+<script src="./assets/languageProvider/homepage/zh-cn.pjs"></script>
+<script src="./assets/languageProvider/homepage/en-us.pjs"></script>
 <script src="./assets/js/homepage.js"></script>
 <script src="./assets/js/languageonload.js" defer></script>
 <script src="./assets/js/followCursor.js"></script>

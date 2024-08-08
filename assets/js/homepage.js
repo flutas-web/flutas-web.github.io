@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       dta.language = getLanguageCode(item.textContent.trim());
       localStorage.setItem('FlutasWebsiteData', JSON.stringify(dta));
       document.documentElement.lang = dta.language;
+      LanguageApply(dta.language);
       dta = null;
     });
   });
@@ -41,3 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("languageDropdown").querySelector('.language').innerHTML = `${t}`;
   }
 });
+
+document.addEventListener('contextmenu',function(e){
+  e.preventDefault();
+})

@@ -1,0 +1,4 @@
+globalThis.languageTable['zh_cn'] = {
+    "#homepageBtn": "首页",
+    "#supportBtn": "支持",
+}
