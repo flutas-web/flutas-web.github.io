@@ -11,9 +11,9 @@ globalThis.languageTable['zh_cn'] = {
     <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
     <p>这下面是我们的一些作品,或许你可以从其中看出些什么.</p>
     <ul>
-        <li><label class="item title">Aluk-js: 包含了Vue和jQuery以及室长稀奇古怪的想法?的Javascript Library.</label>|<a class="theme target" href="./products/aluk" target="blank_">前往</a></li>
-        <li><label class="item title">OfcAct: 一个最简单的Office命令行激活工具(支持2016+版本)</label>|<a class="theme target" href="./products/ofcact" target="blank_">前往</a></li>
-        <li><label class="item title">The Stone of Energy and Life: 目前所有成员正在研发的Unity游戏!</label>|<a class="theme target disabled" href="./products/tsoeal" target="blank_">前往</a></li>
+        <li><label class="item title">Aluk-js: 包含了Vue和jQuery以及室长稀奇古怪的想法?的Javascript Library.</label>|<a class="theme target" href="./products/aluk" target="_blank">前往</a></li>
+        <li><label class="item title">OfcAct: 一个最简单的Office命令行激活工具(支持2016+版本)</label>|<a class="theme target" href="./products/ofcact" target="_blank">前往</a></li>
+        <li><label class="item title">The Stone of Energy and Life: 目前所有成员正在研发的Unity游戏!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">前往</a></li>
     </ul>
     `,
 }

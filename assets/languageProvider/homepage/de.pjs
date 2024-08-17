@@ -1,0 +1,19 @@
+globalThis.languageTable['de'] = {
+    "#homepageBtn": "Startseite",
+    "#supportBtn": "Support",
+    "#contentView": `
+    <h1>Startseite von Flutas</h1>
+    <p>Willkommen auf unserer Startseite.</p>
+    <hr>
+    <br><br>
+    <p><h1>Was ist Flutas?</h1></p>
+    <p>Flutas ist ein Team, dessen Mitglieder in verschiedenen Bereichen kompetent sind. Wir lieben es, oft seltsame Dinge zusammenzubauen.</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+    <p>Unten finden Sie einige unserer Erzeugnisse. Vielleicht könnten Sie daraus etwas ableiten.</p>
+    <ul>
+        <li><label class="item title">Aluk-js: JavaScript-Bibliothek, die Vue, jQuery und die skurrilen Ideen des Teamleiters enthält?</label>|<a class="theme target" href="./products/aluk" target="_blank">Gehen</a></li>
+        <li><label class="item title">OfcAct: Das einfachste Befehlszeilen-Tool zur Aktivierung von Office (kompatibel mit Version 2016 und neuer)</label>|<a class="theme target" href="./products/ofcact" target="_blank">Gehen</a></li>
+        <li><label class="item title">The Stone of Energy and Life: Das Unity-Spiel, das derzeit von allen Teammitgliedern entwickelt wird!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">Gehen</a></li>
+    </ul>
+    `,
+}

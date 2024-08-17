@@ -1,0 +1,19 @@
+globalThis.languageTable['it'] = {
+    "#homepageBtn": "Pagina iniziale",
+    "#supportBtn": "Supporto",
+    "#contentView": `
+    <h1>Pagina iniziale di Flutas</h1>
+    <p>Benvenuti sulla nostra pagina iniziale.</p>
+    <hr>
+    <br><br>
+    <p><h1>Cosa è Flutas?</h1></p>
+    <p>Flutas è un team i cui membri sono competenti in vari campi. Spesso ci piace assemblare cose strane.</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+    <p>Di seguito, trovate alcune delle nostre creazioni. Potresti forse indovinare qualcosa.</p>
+    <ul>
+        <li><label class="item title">Aluk-js: Libreria JavaScript che include Vue, jQuery e le idee strambe del capogruppo?</label>|<a class="theme target" href="./products/aluk" target="_blank">Vai</a></li>
+        <li><label class="item title">OfcAct: Lo strumento più semplice per l'attivazione da riga di comando di Office (compatibile con la versione 2016 e successive)</label>|<a class="theme target" href="./products/ofcact" target="_blank">Vai</a></li>
+        <li><label class="item title">The Stone of Energy and Life: Il gioco Unity attualmente sviluppato da tutti i membri del team!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">Vai</a></li>
+    </ul>
+    `,
+}

@@ -1,0 +1,19 @@
+globalThis.languageTable['zh_tw'] = {
+    "#homepageBtn": "首頁",
+    "#supportBtn": "支援",
+    "#contentView": `
+    <h1>Flutas 首頁</h1>
+    <p>歡迎來到我們的首頁.</p>
+    <hr>
+    <br><br>
+    <p><h1>什麼是Flutas?</h1></p>
+    <p>Flutas是一個團隊,團隊成員在各方面各有涉獵.我們經常喜歡搞一些奇奇怪怪的东西。</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+    <p>這下面是我們的一些作品,也許你可以從其中看出一些什麼。</p>
+    <ul>
+        <li><label class="item title">Aluk-js: 包含了Vue和jQuery以及室長稀奇古怪的想法?的Javascript Library.</label>|<a class="theme target" href="./products/aluk" target="_blank">前往</a></li>
+        <li><label class="item title">OfcAct: 一個最簡單的Office命令行激活工具(支持2016+版本)</label>|<a class="theme target" href="./products/ofcact" target="_blank">前往</a></li>
+        <li><label class="item title">The Stone of Energy and Life: 目前所有成員正在研發的Unity遊戲!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">前往</a></li>
+    </ul>
+    `,
+}

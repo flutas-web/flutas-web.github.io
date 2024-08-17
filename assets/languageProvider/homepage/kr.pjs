@@ -1,0 +1,19 @@
+globalThis.languageTable['kr'] = {
+    "#homepageBtn": "홈",
+    "#supportBtn": "지원",
+    "#contentView": `
+    <h1>Flutas 홈페이지</h1>
+    <p>우리 홈페이지에 오신 것을 환영합니다!</p>
+    <hr>
+    <br><br>
+    <p><h1>Flutas는 무엇인가요?</h1></p>
+    <p>Flutas는 팀으로, 팀 구성원들은 다양한 학습과 연구 분야에 참여하고 있습니다. 우리는 이상한 것들을 고치는 것을 좋아해요.</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+    <p>여기에 우리의 프로젝트 몇 가지가 있습니다, 그 중에서 더 많은 것을 배울 수 있을 것입니다.</p>
+    <ul>
+        <li><label class="item title">Aluk-js: Vue와 jQuery의 일부 기능을 가지고 있으며, 감독의 흥미로운 아이디어를 담고 있는 자바스크립트 라이브러리입니다.</label>|<a class="theme target" href="./products/aluk" target="_blank">가기</a></li>
+        <li><label class="item title">OfcAct: 명령줄 기반의 가장 쉬운 오피스 활성화 도구(지원 버전:2016+)</label>|<a class="theme target" href="./products/ofcact" target="_blank">가기</a></li>
+        <li><label class="item title">에너지와 생명의 돌: 모든 구성원들이 현재 개발 중인 유니티 게임!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">가기</a></li>
+    </ul>
+    `,
+}

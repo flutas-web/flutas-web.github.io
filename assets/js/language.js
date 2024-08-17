@@ -3,13 +3,29 @@ globalThis.languageTable = {};
 const languageMap = {
   "chinese": "zh-cn",
   "english": "en-us",
-  "french": "fr"
+  "traditional chinese": "zh-tw",
+  "french": "fr",
+  "german":"de",
+  "russian":"ru",
+  "japanese":"ja",
+  "thai":"th",
+  "south korean":"kr",
+  "italian":"it",
+  "arabic":"ar_sa"
 };
 
 const reverseLanguageMap = {
   "zh-cn": "chinese",
   "en-us": "english",
-  "fr": "french"
+  "fr": "french",
+  "zh-tw":"traditional chinese",
+  "de":"german",
+  "ru":"russian",
+  "ja":"japanese",
+  "th":"thai",
+  "kr":"south korean",
+  "it":"italian",
+  "ar_sa":"arabic"
 };
 
 function getLanguageName(languageCode) {

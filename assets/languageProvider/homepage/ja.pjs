@@ -1,0 +1,19 @@
+globalThis.languageTable['ja'] = {
+    "#homepageBtn": "ホームページ",
+    "#supportBtn": "サポート",
+    "#contentView": `
+    <h1>Flutasのホームページ</h1>
+    <p>私たちのホームページへようこそ。</p>
+    <hr>
+    <br><br>
+    <p><h1>Flutasとは？</h1></p>
+    <p>Flutasは、様々な分野で専門知識を持つメンバーで構成されたチームです。私たちはよく奇妙なものを組み立てることが好きです。</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+    <p>以下に私たちのいくつかの作品を紹介します。何かを推測できるかもしれません。</p>
+    <ul>
+        <li><label class="item title">Aluk-js: Vue、jQuery、そして室長の変わり者のアイデアを含むJavaScriptライブラリ？</label>|<a class="theme target" href="./products/aluk" target="_blank">移動</a></li>
+        <li><label class="item title">OfcAct: オフィスのコマンドライン起動ツール（2016以降のバージョンに対応）</label>|<a class="theme target" href="./products/ofcact" target="_blank">移動</a></li>
+        <li><label class="item title">The Stone of Energy and Life: チーム全員で現在開発中のUnityゲーム！</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">移動</a></li>
+    </ul>
+    `,
+}

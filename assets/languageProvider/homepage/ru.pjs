@@ -1,0 +1,19 @@
+globalThis.languageTable['ru'] = {
+    "#homepageBtn": "Главная страница",
+    "#supportBtn": "Поддержка",
+    "#contentView": `
+    <h1>Главная страница Flutas</h1>
+    <p>Добро пожаловать на нашу главную страницу.</p>
+    <hr>
+    <br><br>
+    <p><h1>Что такое Flutas?</h1></p>
+    <p>Flutas — это команда, чьи члены обладают навыками в различных областях. Мы часто любим создавать странные вещи.</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
+    <p>Ниже вы найдете некоторые из наших работ. Возможно, вы сможете что-то догадаться.</p>
+    <ul>
+        <li><label class="item title">Aluk-js: JavaScript-библиотека, включающая Vue, jQuery и странные идеи лидера команды?</label>|<a class="theme target" href="./products/aluk" target="_blank">Перейти</a></li>
+        <li><label class="item title">OfcAct: Простейший инструмент командной строки для активации Office (совместим с версией 2016 и выше)</label>|<a class="theme target" href="./products/ofcact" target="_blank">Перейти</a></li>
+        <li><label class="item title">The Stone of Energy and Life: Unity-игра, которую в настоящее время разрабатывает вся команда!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">Перейти</a></li>
+    </ul>
+    `,
+}
