@@ -13,7 +13,7 @@ globalThis.languageTable['kr'] = {
     <ul>
         <li><label class="item title">Aluk-js: Vue와 jQuery의 일부 기능을 가지고 있으며, 감독의 흥미로운 아이디어를 담고 있는 자바스크립트 라이브러리입니다.</label>|<a class="theme target" href="./products/aluk" target="_blank">가기</a></li>
         <li><label class="item title">OfcAct: 명령줄 기반의 가장 쉬운 오피스 활성화 도구(지원 버전:2016+)</label>|<a class="theme target" href="./products/ofcact" target="_blank">가기</a></li>
-        <li><label class="item title">에너지와 생명의 돌: 모든 구성원들이 현재 개발 중인 유니티 게임!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">가기</a></li>
+        <li><label class="item title">The Stone of Energy and Life: 모든 구성원들이 현재 개발 중인 유니티 게임!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">가기</a></li>
     </ul>
     `,
 }

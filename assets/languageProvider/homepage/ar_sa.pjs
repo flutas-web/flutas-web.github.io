@@ -1,19 +1,19 @@
 globalThis.languageTable['ar_sa'] = {
-    "#homepageBtn": "الرئيسية",
+    "#homepageBtn": "الصفحة الرئيسية",
     "#supportBtn": "الدعم",
     "#contentView": `
     <h1>صفحة Flutas الرئيسية</h1>
-    <p>مرحبًا بكم في صفحتنا الرئيسية!</p>
+    <p>مرحبًا بكم في صفحتنا الرئيسية.</p>
     <hr>
     <br><br>
     <p><h1>ما هو Flutas؟</h1></p>
-    <p>Flutas هو فريق، أعضاء الفريق يشاركون في مجالات متعددة من التعلم والبحث. نحن نحب اللعب بأشياء غريبة.</p>
-    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000%3E/format/png"></p>
-    <p>هنا بعض مشاريعنا، قد تتمكن من تعلم المزيد من خلالها.</p>
+    <p>Flutas هي فريق، حيث يتمتع أعضاؤه بتنوع في مجالاتهم الخاصة. نحن دائمًا نحب اختبار أشياء غريبة ومثيرة.</p>
+    <p><img src="https://user-assets.sxlcdn.com/images/1066627/Fi-M-V-x1JsVD8Tn2r6lr3F5tkN-.png?imageMogr2/strip/auto-orient/thumbnail/1200x900/format/png"></p>
+    <p>هذه بعض من أعمالنا، قد تلاحظ شيئًا من خلالها.</p>
     <ul>
-        <li><label class="item title">Aluk-js: مكتبة جافا سكريبت تحتوي على بعض ميزات Vue و jQuery وأفكار القاضي اللامعة.</label>|<a class="theme target" href="./products/aluk" target="_blank">اذهب</a></li>
-        <li><label class="item title">OfcAct: أداة تفعيل المكاتب الأسهل بناءً على سطر الأوامر (يدعم الإصدارات: 2016+)</label>|<a class="theme target" href="./products/ofcact" target="_blank">اذهب</a></li>
-        <li><label class="item title">حجر الطاقة والحياة: اللعبة التي يقوم بتطويرها جميع أعضاء الفريق حاليًا!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">اذهب</a></li>
+        <li><label class="item title">Aluk-js: مكتبة Javascript تحتوي على Vue و jQuery وأفكار السرير الغريبة؟</label>|<a class="theme target" href="./products/aluk" target="_blank">اذهب</a></li>
+        <li><label class="item title">OfcAct: أداة سطر أوامر لتفعيل Office الأساسية (يدعم الإصدارات 2016+)</label>|<a class="theme target" href="./products/ofcact" target="_blank">اذهب</a></li>
+        <li><label class="item title">The Stone of Energy and Life: اللعبة Unity التي يعمل عليها جميع الأعضاء حاليًا!</label>|<a class="theme target disabled" href="./products/tsoeal" target="_blank">اذهب</a></li>
     </ul>
     `,
 }
