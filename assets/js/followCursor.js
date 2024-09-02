@@ -80,7 +80,8 @@
                     "touch-action": "none",
                     "z-index": "10000000",
                     "fontSize": "25px",
-                    "will-change": "transform"
+                    "will-change": "transform",
+                    "user-select": "none"
                 };
  
               

@@ -1,199 +1,80 @@
 <!DOCTYPE html>
 <html dark-mode="auto">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="referrer" content="no-referrer" />
-    <title>Aluk - Flutas</title>
-    <link rel="shortcut icon" href="/assets/img/F.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="/assets/css/universal.css" />
-    <link rel="stylesheet" href="/assets/css/a-theme.css" />
-    <link rel="stylesheet" href="/assets/css/app.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.bootcdn.net/ajax/libs/flag-icons/7.2.3/css/flag-icons.css"
-    />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="navbar-left">
-        <div class="navbar-item">
-          <h2 special>
-            <img
-              src="/assets/img/F.svg"
-              style="display: inline-block; max-width: 20%; max-height: 20%"
-              id="imga"
-            />Flutas
-          </h2>
-        </div>
-      </div>
-      <div class="navbar-right">
-        <ul class="navbar-menu" id="navbarMenu">
-          <li><a href="/" id="homepageBtn">首页</a></li>
-          <li><a href="/support" id="supportBtn">支持</a></li>
-          <li>
-            <div class="dropdown">
-              <a class="language-select" id="languageDropdown"
-                ><span class="arrow down"></span>&ensp;<span class="language"
-                  >Language</span
-                ></a
-              >
-              <div class="dropdown-content" id="languageDropdownContent">
-                <a href="#"><span class="fi fi-cn"></span>Chinese</a>
-                <a href="#"><span class="fi fi-gb"></span>English</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="navbar-toggle" id="navbarToggle">
-        <div class="toggle-icon"></div>
-        <div class="toggle-icon"></div>
-        <div class="toggle-icon"></div>
-      </div>
-    </nav>
-    <label class="js-cursor-container"></label>
-    <div class="content">
-      <img style="opacity:0.3;" class="app info" src="/assets/img/A.svg" />
-      <h1 id="aluk-js">Aluk-js</h1>
-      <p>
-        Aluk是一个有些类似于Jquery的库,它的用途也很多,目前是1.4.2版本
-        在线引用链接:<a
-          href="http://powernod.com/u/388c1af3a993eff1"
-          target="_blank"
-          class="url"
-          >http://powernod.com/u/388c1af3a993eff1</a
-        >
-      </p>
-      <h2 id="基本用法">基本用法</h2>
-      <p>要使用Aluk来搜索DOM元素,你可以这么做:</p>
-      <pre><code class='language-javascript' lang='javascript'>aluk(你的属性选择器);
-</code></pre>
-      <p>
-        该操作返回的是一个querylist列表对象,还包括一组aluk独有的函数方法.你可以通过<code>aluk(你的属性选择器)[第几项]</code>来访问单个元素,但单个元素无法使用aluk的函数方法.
-        当然了,aluk也可以像jquery那样,使用html代码或者元素对象:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'>aluk(`&lt;div class=&#39;b&#39;&gt;&lt;/div&gt;`)
-</code></pre>
-      <p>
-        该操作返回一个未被追加到页面上的querylist列表,你可以通过<code>aluk(你的属性选择器)[第几项]</code>来访问单个元素,但单个元素无法使用aluk的函数方法.
-        或者使用aluk将单个元素转换为aluk的querylist对象:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'>aluk(document.body);
-</code></pre>
-      <h2 id="高级用法">高级用法</h2>
-      <p>Aluk配套的一组函数和属性是可以使用的.</p>
-      <p>
-        默认的Aluk语言为英文,我们可以通过<code
-          >aluk.language = &#39;zh-cn&#39;;</code
-        >来改变aluk的当前语言,包括错误提示
-      </p>
-      <p>
-        但是aluk只支持中文和英文两种语言.所以属性值只有<code>en-us</code>和<code>zh-cn</code>。
-      </p>
-      <h3 id="object转css">Object转Css</h3>
-      <p>你没听错,Aluk是可以将Object类型转换为Css的.</p>
-      <pre><code class='language-javascript' lang='javascript'>var css =&#39;&#39;;
-aluk.objectToCss({&quot;text-align&quot;:&quot;center&quot;，&quot;color&quot;:&quot;red&quot;})。forEach(cssl =&gt; {css+=cssl;})
-</code></pre>
-      <p>这样,变量css里的内容就是我们的css了</p>
-      <h3 id="对aluk对象设置css">对Aluk对象设置css</h3>
-      <p>SetCss用法如下:</p>
-      <pre><code class='language-javascript' lang='javascript'>SetCss(index,cssList)
-</code></pre>
-      <p>
-        这个index指的是我们aluk对象里的第几项,也就是说我们要对这里面的哪一项进行css修改操作.cssList是css
-        (Object)列表 示例:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'>var rtc = aluk(&#39;#rtc&#39;);
-//以下的第一项使用0来表示,第二项使用1,以此类推
-rtc.setCss(0，{&quot;text-align&quot;:&quot;center&quot;，&quot;color&quot;:&quot;red&quot;}); //对div rtc设置css属性,该操作会返回css的行数.
-</code></pre>
-      <h3 id="移动或追加aluk对象到元素">移动或追加Aluk对象到元素</h3>
-      <p>用法如下:</p>
-      <pre><code class='language-javascript' lang='javascript'>AppendorMoveto(index,appender)
-</code></pre>
-      <p>
-        index的含义前面讲过,appender指的是想要把元素移动或追加到哪个元素的子项里
-        示例:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'> var rtc = aluk(&#39;#rtc&#39;);
- //以下的第一项使用0来表示,第二项使用1,以此类推
- rtc.AppendorMoveto(0,document.head);
-</code></pre>
-      <p>
-        示例里的document.head可以用HTML的Element对象来表示,也可以用aluk的querylist来表示
-      </p>
-      <h3 id="创建html元素多选项">创建HTML元素(多选项)</h3>
-      <p>用法如下:</p>
-      <pre><code class='language-javascript' lang='javascript'>aluk.createElementX(options)
-</code></pre>
-      <p>
-        options是一个object对象,里面包含了对创建元素的要求
-        createElementX返回一个Promise对象,其中的PromiseResult就是我们创建的元素.
-        比如:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'>  var options = {
-    &quot;ElementType&quot;:&quot;div&quot;， //设置元素类型
-    &quot;id&quot;:&quot;a&quot;， //设置id,可写可不写,不写把这一行删掉
-    &quot;Class&quot;:&quot;b&quot;， //设置Class,也是可写可不写,不写把这一行删掉
-    &quot;innerHTML&quot;:&quot;&lt;a&gt;&amp;nbsp:123&lt;/a&gt;&quot;
-    }; //设置innerHTML,按需求可以填可以不填,不写把这一行删掉
-    
-    var element;
-    aluk.createElementX(options)。then(res =&gt; element=res);
-</code></pre>
-      <h3 id="在控制台上显示图片">在控制台上显示图片</h3>
-      <p>我们在1.4.2更新了这个函数,具体用法如下:</p>
-      <pre><code class='language-javascript' lang='javascript'>aluk.ShowConsolePictures(url,options)
-</code></pre>
-      <p>其中,url可以为网络https或http链接,也可以为base64链接</p>
-      <p>比如可以这么用:</p>
-      <pre><code class='language-javascript' lang='javascript'>aluk.ShowConsolePictures(`https://file/path/to/png`，{
-    size: &quot;1200&quot;，
-    height: &quot;600&quot; //百分比,控制台给的空间小,所有必须大于100%
-})
-</code></pre>
-      <p>这样,就能把图片清晰的显示在控制台上</p>
-      <h3 id="转换网络链接为base64">转换网络链接为Base64</h3>
-      <p>1.4.2更新 用法:</p>
-      <pre><code class='language-javascript' lang='javascript'>aluk.WebUrlToBase64(url,callback)
-</code></pre>
-      <p>例如:</p>
-      <pre><code class='language-javascript' lang='javascript'>aluk.WebUrlToBase64(&#39;https://path/to/url&#39;，ce =&gt; {
-	console.log(ce)
-	})
-</code></pre>
-      <h2 id="多次搜索">多次搜索</h2>
-      <p>1.4.2更新 用法如下:</p>
-      <pre><code class='language-javascript' lang='javascript'>continue(select)
-</code></pre>
-      <p>
-        该操作对一个querylist对象使用continue函数,在对象内根据选择器搜索元素并返回一个新的querylist对象
-        示例:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'>const listdiv = aluk(&#39;div&#39;);
-const lista = listdiv.continue(&#39;a[id=&quot;b&quot;]&#39;)  //根据原来的对象listdiv返回新的querylist对象lista
-</code></pre>
-      <h2 id="全部删除">全部删除</h2>
-      <p>
-        1.4.2更新
-        原版的aluk(1.2.1)只能通过forEach函数进行逐次删除,于是我们更新了这个RemoveX函数:
-      </p>
-      <pre><code class='language-javascript' lang='javascript'>RemoveX()
-</code></pre>
-      <p>具体用法如下</p>
-      <pre><code class='language-javascript' lang='javascript'>const lista = aluk(&#39;div&#39;)
-lista.RemoveX(); //全部删除
-</code></pre>
-    </div>
 
-    <script src="/assets/js/language.js"></script>
-    <script src="/assets/languageProvider/alukjs/zh-cn.pjs"></script>
-    <script src="/assets/languageProvider/alukjs/en-us.pjs"></script>
-    <script src="/assets/js/homepage.js"></script>
-    <script src="/assets/js/languageonload.js" defer></script>
-    <script src="/assets/js/followCursor.js"></script>
-    <script src="/assets/js/loveCursor.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Aluk - Flutas</title>
+  <link rel="shortcut icon" href="../../assets/img/F.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="../../assets/css/universal.css" />
+  <link rel="stylesheet" href="../../assets/css/a-theme.css" />
+  <link rel="stylesheet" href="../../assets/css/app.css" />
+  <link rel="stylesheet" href="../../assets/lib/highlight/github.min.css" media="(prefers-color-scheme: light)"/>
+  <link rel="stylesheet" href="../../assets/lib/highlight/github-dark.min.css" media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/flag-icons/7.2.3/css/flag-icons.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="navbar-item">
+        <h2 special>
+          <img src="../../assets/img/F.svg" style="display: inline-block; max-width: 20%; max-height: 20%"
+            id="imga" />Flutas
+        </h2>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="/" id="homepageBtn">首页</a></li>
+        <li><a href="/support" id="supportBtn">支持</a></li>
+        <li>
+          <div class="dropdown">
+            <a class="language-select" id="languageDropdown"><span class="arrow down"></span>&ensp;<span
+                class="language">Language</span></a>
+            <div class="dropdown-content" id="languageDropdownContent">
+              <a href="#"><span class="fi fi-cn"></span>Chinese</a>
+              <a href="#"><span class="fi fi-gb"></span>English</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-toggle" id="navbarToggle">
+      <div class="toggle-icon"></div>
+      <div class="toggle-icon"></div>
+      <div class="toggle-icon"></div>
+    </div>
+  </nav>
+  <label class="js-cursor-container"></label>
+  <div class="content">
+    <h2>Aluk.js</h2>
+    <p>一个集成了许多功能的Javascript Library.</p>
+    <p>Github仓库地址 <a href="https://github.com/flutas-web/aluk-lib">前往</a></p>
+    <h2>简介</h2>
+    <p>Aluk拥有选择器功能和配套的一组函数,实现自定义元素,数据绑定,高版本JS函数向下兼容,元素扫描与批量快捷修改,扩展网页功能.</p>
+    <h2>快速上手</h2>
+    <p>对于Node.js(CommonJS):</p>
+    <pre><code language="javascript">const aluk = require('./aluk.min.js');</code></pre>
+    <p>对于浏览器环境:</p>
+    <pre><code language="html">&lt;script&gt; src="./aluk.min.js"&lt;/script&gt;</code></pre>
+    <p>对于AMD规范:</p>
+    <pre><code language="javascript">require(['aluk.min'],(aluk) => {globalThis['aluk'] = aluk})
+</code></pre>
+  </div>
+
+  <script src="../../assets/js/instante.js"></script>
+  <script src="../../assets/js/language.js"></script>
+  <script src="../../assets/languageProvider/alukjs/zh-cn.pjs"></script>
+  <script src="../../assets/languageProvider/alukjs/en-us.pjs"></script>
+  <script src="../../assets/js/homepage.js"></script>
+  <script src="../../assets/js/languageonload.js" defer></script>
+  <script src="../../assets/js/followCursor.js"></script>
+  <script src="../../assets/js/loveCursor.js"></script>
+  <script src="../../assets/lib/highlight/highlight.min.js"></script>
+  <script src="../../assets/lib/highlight/highlight.line-numbers.js"></script>
+  <script src="../../assets/js/article.js"></script>
+</body>
+
 </html>
