@@ -18,7 +18,7 @@
                     doc.body.appendChild(gt.flutas_main);
                 }
                 gt.flutas_main.shadow = gt.flutas_main.getShadowRoot();
-                gt.flutas_main.shadow.querySelector('flutas-main inner').innerHTML = marked.parse(content.content);
+                gt.flutas_main.shadow.querySelector('.flutas-main .inner').innerHTML = marked.parse(content.content);
             } catch(t) {
                 funcs.c('error loading page',t);
             }
