@@ -32,12 +32,12 @@
     let redicrect = {
         article: {
             init: (id) => {
-                fetch(`../registry/.saves/${id}.json`).then((res) => res.json()).then(f=>{funcs.loadf(f)}).catch(e => {funcs.loade(e)})
+                fetch(`../registry/saves/${id}.json`).then((res) => res.json()).then(f=>{funcs.loadf(f)}).catch(e => {funcs.loade(e)})
             }   
         },
         notice: {
             init: (id) => {
-                fetch(`../registry/.notices/${id}.json`).then((res) => res.json()).then(f=>{funcs.loadf(f)}).catch(e => {funcs.loade(e)})
+                fetch(`../registry/notices/${id}.json`).then((res) => res.json()).then(f=>{funcs.loadf(f)}).catch(e => {funcs.loade(e)})
             }
         }
     };
