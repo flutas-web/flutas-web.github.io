@@ -23,7 +23,7 @@ aluk.controls.register(class FlutasMain {
         this.renderer = rendvi;
         this.onframe = onf;
         this.inner = `
-            <div class="flutas-main inner">
+            <div class="flutas-main inner content">
 
             </div>
         `;

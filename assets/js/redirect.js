@@ -29,7 +29,7 @@
         },
         loade: (e) => { funcs.crm(e); }
     }
-    let redicrect = {
+    let redirect = {
         article: {
             init: (id) => {
                 fetch(`../registry/saves/${id}.json`).then((res) => res.json()).then(f=>{funcs.loadf(f)}).catch(e => {funcs.loade(e)})
@@ -47,10 +47,10 @@
         let t = funcs.b();
         switch (t.type) {
             case 'article':
-                redicrect.article.init(t.id);
+                redirect.article.init(t.id);
                 break;
             case 'notice':
-                redicrect.notice.init(t.id);
+                redirect.notice.init(t.id);
                 break;
             default:
                 funcs.c('undefined');
