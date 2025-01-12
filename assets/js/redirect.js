@@ -25,7 +25,7 @@
             
         },
         loadf: (json) => {
-            funcs.crm();
+            funcs.crm(json);
         },
         loade: (e) => { funcs.crm(e); }
     }
