@@ -10,7 +10,7 @@
                     return { type: 'undefined', 'id': '000' };
             }
         },
-        c: (f) => { con.log(f) },
+        c: (f,e) => { con.log(f,e == undefined ? '' : e) },
         crm: (content) => {
             try {
                 if(aluk(`flutas-main`).length === 0 || aluk(`flutas-main`).length === undefined) {
