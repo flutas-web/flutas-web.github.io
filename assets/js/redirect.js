@@ -19,8 +19,8 @@
                 }
                 gt.flutas_main.shadow = gt.flutas_main.getShadowRoot();
                 gt.flutas_main.shadow.querySelector('flutas-main inner').innerHTML = marked.parse(content.content);
-            } catch {
-                funcs.c('error loading page');
+            } catch(t) {
+                funcs.c('error loading page',t);
             }
             
         },
