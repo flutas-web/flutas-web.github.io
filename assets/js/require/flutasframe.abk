@@ -1,0 +1,31 @@
+/**
+ * Render the element
+ * @param {Element} param1 - The object to render(shadowroot)
+ * @returns {undefined}
+ */
+function rendvi(e,t) {
+    const sd = e.shadowRoot || t;
+    e.getShadowRoot = () => sd;
+    
+}
+
+function onf(e,t) {
+    const sd = e.shadowRoot || t;
+    console.log(e,sd)
+}
+
+
+
+
+aluk.controls.register(class FlutasMain {
+    constructor() {
+        this.tag = 'flutas-main';
+        this.renderer = rendvi;
+        this.onframe = onf;
+        this.inner = `
+            <div class="flutas-main inner">
+
+            </div>
+        `;
+    }
+})

@@ -235,3 +235,9 @@ body {
 img {
   width: 100%;
 }
+
+#imga {
+  display:inline-block;
+  max-width: 20%;
+  max-height: 20%;
+}
