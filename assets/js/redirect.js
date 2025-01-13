@@ -21,7 +21,11 @@
                     doc.body.appendChild(gt.flutas_main);
                 }
                 gt.flutas_main.shadow = gt.flutas_main.getShadowRoot();
-                gt.flutas_main.shadow.querySelector('.flutas-main.inner').innerHTML = marked.parse(content.content);
+                let div = aluk(`<div class="pure display">${marked.parse(content.content)}</div>`)[0];
+                
+                let pd = gt.flutas_main.shadow.querySelector('.flutas-main.inner');
+                pd.childNodes.forEach((e) => {e.remove()})
+                pd.appendChild(div);
                 doc.title = content.title + ` - Flutas`;
             } catch (t) {
                 funcs.c('error loading page', t);
