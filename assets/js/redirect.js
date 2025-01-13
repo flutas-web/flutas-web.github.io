@@ -16,7 +16,7 @@
         c: (f, e) => { con.log(f, e == undefined ? '' : e) },
         crm: (content) => {
             try {
-                if (aluk(`flutas-main`).length === 0 || aluk(`flutas-main`).length === undefined) {
+                if (document.querySelectorAll(`flutas-main`).length === 0 || document.querySelectorAll(`flutas-main`).length === undefined) {
                     gt.flutas_main = document.createElement('flutas-main');
                     doc.body.appendChild(gt.flutas_main);
                 }
