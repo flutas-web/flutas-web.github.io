@@ -22,7 +22,9 @@
                 }
                 gt.flutas_main.shadow = gt.flutas_main.getShadowRoot();
                 let div = aluk(`<div class="pure display">${marked.parse(content.content)}</div>`)[0];
-                
+                div.querySelectorAll('pre').forEach(t => {
+                    hljs.highlightElement(t);
+                });
                 let pd = gt.flutas_main.shadow.querySelector('.flutas-main.inner');
                 pd.childNodes.forEach((e) => {e.remove()})
                 pd.appendChild(div);
