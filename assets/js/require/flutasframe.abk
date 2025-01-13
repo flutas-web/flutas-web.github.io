@@ -22,8 +22,9 @@ aluk.controls.register(class FlutasMain {
         this.tag = 'flutas-main';
         this.renderer = rendvi;
         this.onframe = onf;
-        this.style = `
-            body {
+        this.inner = `
+        <style>
+                    body {
   font-family: '拾陆字濑户2.0-1 Regular', Lexend, 'Microsoft YaHei UI Light', 'Open Sans';
   margin: 0;
   padding: 0;
@@ -266,8 +267,7 @@ img {
   max-width: 20%;
   max-height: 20%;
 }
-        `;
-        this.inner = `
+        </style>
             <div class="flutas-main inner content">
 
             </div>
