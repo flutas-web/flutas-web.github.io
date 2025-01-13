@@ -1,4 +1,7 @@
 (function ({ gt, win, con, doc }) {
+
+    let lastid = '';
+    
     let funcs = {
         a: () => { return typeof win.location.hash !== 'undefined' ? win.location.hash.startsWith('#/') : false },
         b: () => {
@@ -33,11 +36,13 @@
     let redirect = {
         article: {
             init: (id) => {
+                lastid = id;
                 fetch(`../registry/saves/${id}.json`).then((res) => res.json()).then(f => { funcs.loadf(f) }).catch(e => { funcs.loade(e) })
             }
         },
         notice: {
             init: (id) => {
+                lastid = id;
                 fetch(`../registry/notices/${id}.json`).then((res) => res.json()).then(f => { funcs.loadf(f) }).catch(e => { funcs.loade(e) })
             }
         }
@@ -65,7 +70,7 @@
 
 
     function scrollToElement(elementId) {
-        const element = document.getElementById(elementId);
+        const element = gt.flutas_main.shadow.getElementById(elementId);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' }); // 平滑滚动
         } else {
@@ -86,6 +91,10 @@
     function onUrlChange() {
         if (!funcs.a()) {
             redirect.article.init('00');
+        } else {
+            if(lastid !== funcs.b().id) {
+                redirect[funcs.b().type].init(funcs.b().id);
+            }
         }
         scrollToEle();
     }
