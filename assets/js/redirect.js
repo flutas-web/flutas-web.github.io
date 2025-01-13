@@ -77,12 +77,14 @@
         let params = new URLSearchParams(win.location.hash.split('?')[1]);
         let posValue = params.get('pos');
         if(posValue != null) {
-            scrollToElement(posValue);
+            try {
+                scrollToElement(posValue);
+            } catch {}  
         }
     }
     // 定义要执行的函数
     function onUrlChange() {
-        if (!a()) {
+        if (!funcs.a()) {
             redirect.article.init('00');
         }
         scrollToEle();
