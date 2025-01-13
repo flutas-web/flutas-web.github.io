@@ -267,6 +267,10 @@ img {
   max-width: 20%;
   max-height: 20%;
 }
+
+.pure.display {
+    max-width: fit-content;
+}
         </style>
         <link rel="stylesheet" href="../assets/lib/highlight/github.min.css" media="(prefers-color-scheme: light)" />
         <link rel="stylesheet" href="../assets/lib/highlight/github-dark.min.css" media="(prefers-color-scheme: dark)" />
