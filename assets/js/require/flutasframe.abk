@@ -4,25 +4,25 @@
  * @returns {undefined}
  */
 function rendvi(e, t) {
-    const sd = e.shadowRoot || t;
-    e.getShadowRoot = () => sd;
+  const sd = e.shadowRoot || t;
+  e.getShadowRoot = () => sd;
 
 }
 
 function onf(e, t) {
-    const sd = e.shadowRoot || t;
-    console.log(e, sd)
+  const sd = e.shadowRoot || t;
+  console.log(e, sd)
 }
 
 
 
 
 aluk.controls.register(class FlutasMain {
-    constructor() {
-        this.tag = 'flutas-main';
-        this.renderer = rendvi;
-        this.onframe = onf;
-        this.inner = `
+  constructor() {
+    this.tag = 'flutas-main';
+    this.renderer = rendvi;
+    this.onframe = onf;
+    this.inner = `
         <style>
                     body {
   font-family: '拾陆字濑户2.0-1 Regular', Lexend, 'Microsoft YaHei UI Light', 'Open Sans';
@@ -268,9 +268,11 @@ img {
   max-height: 20%;
 }
         </style>
+        <link rel="stylesheet" href="../assets/lib/highlight/github.min.css" media="(prefers-color-scheme: light)" />
+        <link rel="stylesheet" href="../assets/lib/highlight/github-dark.min.css" media="(prefers-color-scheme: dark)" />
             <div class="flutas-main inner content">
 
             </div>
         `;
-    }
+  }
 })
