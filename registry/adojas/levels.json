@@ -1,0 +1,518 @@
+{
+  "info": {
+    "name": "ADOJAS-默认订阅",
+    "description": "这是ADOJAS关卡的默认订阅.|目前我们并未找到很多谱面,所以暂时使用@Lizi的第三方订阅作为源."
+  },
+  "levels": [
+    {
+      "id": "56",
+      "title": "かめりあ(Camellia) - Hello (BPM) 2025",
+      "creator": "굥욷",
+      "download_link": "https://www.123912.com/s/FIh7Td-vcgJ3",
+      "download_link2": "https://www.123912.com/s/FIh7Td-TcgJ3",
+      "difficulty": "20",
+      "description": "难度21.3\r\n本铺面的vfx和vfx pro版本在黑洞处均有显示错误，不影响游玩",
+      "created_at": "2025-02-12 00:51:25"
+    },
+    {
+      "id": "55",
+      "title": "かめりあ(Camellia) - Hello (BPM) 2023",
+      "creator": "Nephrolepis & Irin & ChyaRyam & Asansis & Bingsu",
+      "download_link": "https://www.123pan.com/s/i4GqVv-lZ8Rh",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-02-07 18:32:35"
+    },
+    {
+      "id": "54",
+      "title": "かめりあ(Camellia) - Parallel Universe Shifter",
+      "creator": "Nephy Association for Vogue Rectification）（서울사는 김민수(Seoul_minsu)，옥빔(Ocbim)，시온(Shion)，PillyXD，Editor AlriC，yyy123454321，굥욷(YOON)▪︎Camera▪︎ & 빙수(Bingsu)▪︎VFX▪︎，지들파(Zidldpa)）",
+      "download_link": "https://www.123pan.com/s/i4GqVv-SZ8Rh",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-02-07 18:30:57"
+    },
+    {
+      "id": "53",
+      "title": "Shirai - Breakthrough the Mirrors",
+      "creator": "Nuclear729、Alex1044、Effiner、RyHoon、òwóLaDal、Cmico、PELEX",
+      "download_link": "https://www.123pan.com/s/i4GqVv-UZ8Rh",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-02-07 18:28:49"
+    },
+    {
+      "id": "52",
+      "title": "HyuN - Infinity Heaven",
+      "creator": "초보잼 & ART",
+      "download_link": "https://www.123pan.com/s/i4GqVv-8Z8Rh",
+      "download_link2": "https://www.123pan.com/s/i4GqVv-0Z8Rh",
+      "difficulty": "15",
+      "description": "",
+      "created_at": "2025-02-07 18:22:31"
+    },
+    {
+      "id": "51",
+      "title": "Megamix2.5",
+      "creator": "@sakiダーリン @xhl_a @账号已注销 @Cc_Fumizuki @Gehuan_g @雾雨馍里沙 @搬半块砖 @デイジー_04 @白繪青 @小仓AWA @神梦Soul_Dream @OToptions @爱吞炸弹的猫咪 @Number冰西瓜",
+      "download_link": "https://www.123pan.com/s/i4GqVv-rZ8Rh",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "歌曲：Megamix2.5\r\n曲师：plum&@大大滴浴池 &@西福瑞希Ciforance",
+      "created_at": "2025-02-07 18:19:43"
+    },
+    {
+      "id": "50",
+      "title": "KOTONOHOUSE - Sprout",
+      "creator": "玲语LINGU, KaIsa丨ADOFAI, 二四0024",
+      "download_link": "https://www.123pan.com/s/i4GqVv-OZ8Rh",
+      "download_link2": "",
+      "difficulty": "18",
+      "description": "",
+      "created_at": "2025-02-07 18:14:44"
+    },
+    {
+      "id": "49",
+      "title": "Sad Keyboard Guy - Beyond Your Words",
+      "creator": "Sprout34",
+      "download_link": "https://www.123pan.com/s/i4GqVv-DZ8Rh",
+      "download_link2": "",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2025-02-07 17:54:10"
+    },
+    {
+      "id": "48",
+      "title": "Synthion - Light Years Away",
+      "creator": "Logal0 & pixxy",
+      "download_link": "https://www.123pan.com/s/i4GqVv-CZ8Rh",
+      "download_link2": "",
+      "difficulty": "17",
+      "description": "",
+      "created_at": "2025-02-07 17:50:40"
+    },
+    {
+      "id": "47",
+      "title": "DJ Raisei - Fractured Angel",
+      "creator": "独某_DuMou",
+      "download_link": "https://www.123pan.com/s/i4GqVv-sZ8Rh",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "踩音：独某_DuMou\r\n特效：平太_Alvis 独某_DuMou",
+      "created_at": "2025-02-07 17:48:40"
+    },
+    {
+      "id": "46",
+      "title": "かめりあ (Camellia) - Hello (BPM) 2024",
+      "creator": "Alpha | 응애 & Irin & Bingsu & Zidldpa_",
+      "download_link": "https://www.123pan.com/s/i4GqVv-nZ8Rh",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-02-07 17:40:04"
+    },
+    {
+      "id": "44",
+      "title": "Plum-Gamma Ray Burst",
+      "creator": "一块发霉的土豆",
+      "download_link": "https://www.123pan.com/s/i4GqVv-4Z8Rh",
+      "download_link2": "https://www.123pan.com/s/i4GqVv-xZ8Rh",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-02-07 12:59:36"
+    },
+    {
+      "id": "43",
+      "title": "roər - ViLLAGE OF CHRYSANTHEMUM",
+      "creator": "YOON",
+      "download_link": "https://www.123pan.com/s/i4GqVv-1Z8Rh",
+      "download_link2": "",
+      "difficulty": "15",
+      "description": "非常好看的谱面",
+      "created_at": "2025-02-07 12:48:26"
+    },
+    {
+      "id": "42",
+      "title": "Kyoto",
+      "creator": "IntersSnowFlake&Rin凛冬",
+      "download_link": "https://lz.qaiu.top/parser?url=https://www.123684.com/s/FIh7Td-ZDgJ3",
+      "download_link2": "https://lz.qaiu.top/parser?url=https://www.123684.com/s/FIh7Td-cDgJ3",
+      "difficulty": "15",
+      "description": "",
+      "created_at": "2025-02-04 12:22:49"
+    },
+    {
+      "id": "41",
+      "title": "Retrospective Falsification (VIP)",
+      "creator": "Nephrolepis & 토트 & NfK & niAE",
+      "download_link": "https://lz.qaiu.top/parser?url=https://www.123684.com/s/FIh7Td-RDgJ3",
+      "download_link2": "https://lz.qaiu.top/parser?url=https://www.123684.com/s/FIh7Td-ODgJ3",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-02-04 10:32:45"
+    },
+    {
+      "id": "40",
+      "title": "XH,KYURO3, YUTRAZIUM - REFLECTION (HARDCORE UTOPIA VI)",
+      "creator": "Team_O¹⁸⁺lline",
+      "download_link": "无",
+      "download_link2": "https://www.123684.com/s/F2Vhjv-aeZlA",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2025-02-03 14:00:36"
+    },
+    {
+      "id": "39",
+      "title": "Ciforance MEGAMIX II",
+      "creator": "too many",
+      "download_link": "https://vip.123pan.cn/1817812101/12882330",
+      "download_link2": "",
+      "difficulty": "10",
+      "description": "西福瑞希Ciforance",
+      "created_at": "2025-01-29 19:46:40"
+    },
+    {
+      "id": "38",
+      "title": "かめりあ(Camellia)-THE WORLD REVOLVING 21",
+      "creator": "Team 4%",
+      "download_link": "https://vip.123pan.cn/1817812101/12750696",
+      "download_link2": "https://vip.123pan.cn/1817812101/12750695",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2025-01-26 23:41:56"
+    },
+    {
+      "id": "37",
+      "title": "Breakthrough_the_mirror",
+      "creator": "Team Omega(Dangeun & 지네고 & Alpha & 이비안 & 유한 & Ryuha | Ocbim & PillyXD & 시온 & GamingGoose239 & 보름달 쿠키 & 오이 & 남수 & NeBigh)",
+      "download_link": "https://vip.123pan.cn/1817812101/12749267",
+      "download_link2": "https://vip.123pan.cn/1817812101/12749266",
+      "difficulty": "10",
+      "description": "非常好看的谱面",
+      "created_at": "2025-01-26 20:39:20"
+    },
+    {
+      "id": "36",
+      "title": "Terrasphere(2023 Remake)",
+      "creator": "아라티",
+      "download_link": "https://www.123684.com/s/FIh7Td-DIgJ3",
+      "download_link2": "https://www.123684.com/s/FIh7Td-RIgJ3",
+      "difficulty": "5",
+      "description": "",
+      "created_at": "2025-01-23 10:41:13"
+    },
+    {
+      "id": "35",
+      "title": "かめりあ (Camellia) - Arche",
+      "creator": "niAE, Sureoning, Neonvillain",
+      "download_link": "https://vip.123pan.cn/1817812101/12435669",
+      "download_link2": "",
+      "difficulty": "10",
+      "description": "此谱面在录制过程中，最后出现严重卡顿，差点给我电脑干报废了，只提供VFX版本，VFX Pro估计没啥用，差点就寄了",
+      "created_at": "2025-01-21 20:12:33"
+    },
+    {
+      "id": "34",
+      "title": "Megasphere - Inferno (nerfed)",
+      "creator": "Irin",
+      "download_link": "https://vip.123pan.cn/1817812101/12431460",
+      "download_link2": "",
+      "difficulty": "10",
+      "description": "此谱面只提供VFX版本",
+      "created_at": "2025-01-21 19:33:36"
+    },
+    {
+      "id": "33",
+      "title": "Toby Fox - ASGORE (zsry Remix)",
+      "creator": "Irin",
+      "download_link": "https://vip.123pan.cn/1817812101/12416505",
+      "download_link2": "https://vip.123pan.cn/1817812101/12416510",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2025-01-21 15:10:36"
+    },
+    {
+      "id": "32",
+      "title": "Plum-Megamix",
+      "creator": "Irin",
+      "download_link": "https://vip.123pan.cn/1817812101/12040050",
+      "download_link2": "https://vip.123pan.cn/1817812101/12040047",
+      "difficulty": "10",
+      "description": "此谱面VFX Pro版本几乎与原版性能开销一致，推荐VFX版本",
+      "created_at": "2025-01-16 01:24:41"
+    },
+    {
+      "id": "31",
+      "title": "Plum - Kaleidoscope（2024重制版）",
+      "creator": "爱小雪花的冰神",
+      "download_link": "https://vip.123pan.cn/1817812101/11896415",
+      "download_link2": "https://vip.123pan.cn/1817812101/11896456",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2025-01-11 18:40:04"
+    },
+    {
+      "id": "30",
+      "title": "S.A.T.E.L.L.I.T.E",
+      "creator": "새제비 & Etell & LLLyang1",
+      "download_link": "https://vip.123pan.cn/1817812101/11876573",
+      "download_link2": "https://vip.123pan.cn/1817812101/11876585",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2025-01-11 02:29:35"
+    },
+    {
+      "id": "29",
+      "title": "Plum - The Lost Aria",
+      "creator": "爱小雪花的冰神&洛辰",
+      "download_link": "https://vip.123pan.cn/1817812101/11902104",
+      "download_link2": "",
+      "difficulty": "10",
+      "description": "此谱面VFXPro版本和原版几乎没有区别，故只制作VFX版本",
+      "created_at": "2025-01-11 01:12:25"
+    },
+    {
+      "id": "28",
+      "title": "Plum - Melodic Artist - Magic Stationery Store(神奇的文具店)",
+      "creator": "爱小雪花的冰神 & 小陈",
+      "download_link": "https://vip.123pan.cn/1817812101/11875778",
+      "download_link2": "https://vip.123pan.cn/1817812101/11902456",
+      "difficulty": "20",
+      "description": "",
+      "created_at": "2025-01-11 00:55:21"
+    },
+    {
+      "id": "27",
+      "title": "One Way Street (\"Endless\" Long Ver.)",
+      "creator": "Editor Alric & Pharah & ChyaRyam",
+      "download_link": "https://vip.123pan.cn/1817812101/11875632",
+      "download_link2": "",
+      "difficulty": "10",
+      "description": "此谱面由于装饰量巨大，VFXPro不一定带的动，只提供VFX谱面",
+      "created_at": "2025-01-11 00:11:11"
+    },
+    {
+      "id": "25",
+      "title": "《/nttld.:beings》~Truth in Uncertainty~",
+      "creator": "Nephrolepis",
+      "download_link": "https://vip.123pan.cn/1817812101/11780755",
+      "download_link2": "https://vip.123pan.cn/1817812101/11780753",
+      "difficulty": "20",
+      "description": "谱面等级：21.1（21级论坛）\r\n体感等级：21.2+",
+      "created_at": "2025-01-05 14:19:31"
+    },
+    {
+      "id": "24",
+      "title": "ZSRY-国士无双",
+      "creator": "토트",
+      "download_link": "https://vip.123pan.cn/1817812101/11780749",
+      "download_link2": "",
+      "difficulty": "20",
+      "description": "此谱面只做了VFX，有时间了再做VFX PRO\r\n谱面等级:21.1+\r\n体感等级:21.1+",
+      "created_at": "2025-01-01 14:58:50"
+    },
+    {
+      "id": "23",
+      "title": "Waking_Shadows",
+      "creator": "Team_＞ᵥ＜",
+      "download_link": "https://vip.123pan.cn/1817812101/11780743",
+      "download_link2": "https://vip.123pan.cn/1817812101/11780741",
+      "difficulty": "10",
+      "description": "此谱面就算进行了vfx处理仍然k可能很吃性能",
+      "created_at": "2025-01-01 14:24:14"
+    },
+    {
+      "id": "22",
+      "title": "Jipper EX",
+      "creator": "종열",
+      "download_link": "https://vip.123pan.cn/1817812101/11780734",
+      "download_link2": "https://vip.123pan.cn/1817812101/11780733",
+      "difficulty": "20",
+      "description": "体感等级:21.2+~21.3",
+      "created_at": "2025-01-01 00:11:19"
+    },
+    {
+      "id": "21",
+      "title": "별이 보이지 않는 밤(看不见星星的夜晚)",
+      "creator": "天乐讯",
+      "download_link": "https://vip.123pan.cn/1817812101/11684657",
+      "download_link2": "https://vip.123pan.cn/1817812101/11684652",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-31 23:34:33"
+    },
+    {
+      "id": "20",
+      "title": "KLYDIX - Dream Flower",
+      "creator": "BWen & Editor AlriC (feat. ChyaRyam)",
+      "download_link": "https://vip.123pan.cn/1817812101/11684602",
+      "download_link2": "https://vip.123pan.cn/1817812101/11684604",
+      "difficulty": "13",
+      "description": "",
+      "created_at": "2024-12-31 23:04:32"
+    },
+    {
+      "id": "19",
+      "title": "Beyond The Timeline",
+      "creator": "Fumizuki & Sprout",
+      "download_link": "https://vip.123pan.cn/1817812101/11683962",
+      "download_link2": "https://vip.123pan.cn/1817812101/11683963",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-31 22:33:24"
+    },
+    {
+      "id": "18",
+      "title": "FallenEra",
+      "creator": "FactsNXD&Patience&一条狗宬&just_GIAO",
+      "download_link": "https://vip.123pan.cn/1817812101/11683267",
+      "download_link2": "https://vip.123pan.cn/1817812101/11683264",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-31 21:50:35"
+    },
+    {
+      "id": "17",
+      "title": "FallenEra",
+      "creator": "MKLyutou",
+      "download_link": "https://vip.123pan.cn/1817812101/11668752",
+      "download_link2": "https://vip.123pan.cn/1817812101/11668751",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-30 21:49:58"
+    },
+    {
+      "id": "16",
+      "title": "希望有羽毛和翅膀",
+      "creator": "忒嗣tesu",
+      "download_link": "https://vip.123pan.cn/1817812101/11668719",
+      "download_link2": "https://vip.123pan.cn/1817812101/11668718",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-30 21:20:21"
+    },
+    {
+      "id": "15",
+      "title": "Flowering Nostalgia",
+      "creator": "IMC&BAmethyst&Kalsa",
+      "download_link": "https://vip.123pan.cn/1817812101/11668708",
+      "download_link2": "https://vip.123pan.cn/1817812101/11668709",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-30 20:33:03"
+    },
+    {
+      "id": "14",
+      "title": "Witch_of_the_Hollows_ENDD",
+      "creator": " CDF 4 Round 1 Group C",
+      "download_link": "https://vip.123pan.cn/1817812101/11668241",
+      "download_link2": "https://vip.123pan.cn/1817812101/11668239",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-30 20:00:34"
+    },
+    {
+      "id": "13",
+      "title": "witch of the hollows",
+      "creator": " Alpha & 가지지",
+      "download_link": "https://vip.123pan.cn/1817812101/11666787",
+      "download_link2": "https://vip.123pan.cn/1817812101/11666777",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-30 14:53:38"
+    },
+    {
+      "id": "12",
+      "title": "Plum - N",
+      "creator": " 一块发霉的土豆, Special Thanks: Lupel_2, ChyaRyam, niAE, Editor AlriC, YOON, oSKYo",
+      "download_link": "https://vip.123pan.cn/1817812101/11585803",
+      "download_link2": "https://vip.123pan.cn/1817812101/11585811",
+      "difficulty": "18",
+      "description": "",
+      "created_at": "2024-12-26 20:01:40"
+    },
+    {
+      "id": "11",
+      "title": "beyond your words",
+      "creator": "Sprout & Alex1044 & 9³",
+      "download_link": "https://vip.123pan.cn/1817812101/11585552",
+      "download_link2": "https://vip.123pan.cn/1817812101/11585564",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-26 19:17:11"
+    },
+    {
+      "id": "10",
+      "title": "ViLLAGE OF CHRYSANTHEMUM",
+      "creator": "PELEX&YOON(Feat.Oz&Bingsu&OE)",
+      "download_link": "https://vip.123pan.cn/1817812101/11450441",
+      "download_link2": "https://vip.123pan.cn/1817812101/11450158",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-25 19:06:28"
+    },
+    {
+      "id": "9",
+      "title": "seatrus - M A X I M U M B L A S T E R",
+      "creator": "Team Grand",
+      "download_link": "https://vip.123pan.cn/1817812101/11444149",
+      "download_link2": "https://vip.123pan.cn/1817812101/11444432",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-25 18:32:29"
+    },
+    {
+      "id": "8",
+      "title": "Megamix1.5",
+      "creator": "plum",
+      "download_link": "https://vip.123pan.cn/1817812101/11221210",
+      "download_link2": "https://vip.123pan.cn/1817812101/11221189",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-14 23:05:35"
+    },
+    {
+      "id": "7",
+      "title": "MYUKKE. - Go off the Vapor",
+      "creator": "AWC Chart Team 《Forret》(‪@HYONSU‬ & ‪@EditorAlriC‬)",
+      "download_link": "https://vip.123pan.cn/1817812101/11220380",
+      "download_link2": "https://vip.123pan.cn/1817812101/11220385",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-14 21:56:22"
+    },
+    {
+      "id": "6",
+      "title": "Shinkai Shoujo",
+      "creator": "ゆうゆ (Yuuyu)",
+      "download_link": "https://vip.123pan.cn/1817812101/11216855",
+      "download_link2": "https://vip.123pan.cn/1817812101/11216850",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-14 21:16:32"
+    },
+    {
+      "id": "5",
+      "title": "Lost My Mind",
+      "creator": " Sprout34 & Wheel & Effiner",
+      "download_link": "https://vip.123pan.cn/1817812101/11212126",
+      "download_link2": "https://vip.123pan.cn/1817812101/11212128",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-14 17:24:21"
+    },
+    {
+      "id": "4",
+      "title": "IIC_Mare_Tranquillitatis_long",
+      "creator": "IIC_Mare_Tranquillitatis_long",
+      "download_link": "https://vip.123pan.cn/1817812101/11212121",
+      "download_link2": "https://vip.123pan.cn/1817812101/11212122",
+      "difficulty": "10",
+      "description": "",
+      "created_at": "2024-12-14 17:21:02"
+    }
+  ]
+}
